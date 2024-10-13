@@ -19,13 +19,13 @@ describe('LinkChecker', () => {
 
     // FIXME
     test('should return false for invalid URL with no protocol', () => {
-        expect(linkChecker.isValidUrl('www.example.com')).toBeNaN()
+        expect(linkChecker.isValidUrl('www.example.com')).toBeFalsy()
     })
 
     // FIXME:
 
     // test('should return true for valid URL with port', () => {
-    //     linkChecker.isValidUrl('http://www.example.com:8080')).toBetrue;
+    //     linkChecker.isValidUrl('http://www.example.com:8080')).toBeTruthy()
     // })
     //
     // test('should return true for valid URL with path', () => {
