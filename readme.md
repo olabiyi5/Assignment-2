@@ -1,3 +1,4 @@
+Trying new pull request method 
 # LinkChecker
 
 This project contains a simple TypeScript class `LinkChecker` for validating URLs.
